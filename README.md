@@ -1,1 +1,1 @@
-# epam-trainings-responsive-design
+# EPAM Trainings - Responsive Design
