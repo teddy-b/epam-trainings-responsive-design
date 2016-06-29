@@ -1,0 +1,51 @@
+body,
+div,
+nav,
+main,
+h1,
+img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container {
+    background-color: paleturquoise;
+}
+
+.nav {
+    width: 96%;
+    margin: auto;
+    padding: 2%;
+    background-color: deepskyblue;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.main__item {
+    width: 96%;
+    margin: 2%;
+    background-color: deepskyblue;
+}
+
+@media only screen and (min-width: 768px) {
+    .main__item {
+        width: 46%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .main__item {
+        width: 29.33%;
+    }
+}
